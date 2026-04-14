@@ -49,8 +49,8 @@ export default function App() {
         <SplitSection key={exp.id} {...exp} />
       ))}
 
-      <PhotoBand items={PHOTO_BAND} />
       <Services />
+      <PhotoBand items={PHOTO_BAND} />
       <NetworkQuote />
       <Clients />
       <Enquire />
