@@ -658,7 +658,9 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
     padding: 6rem 2rem;
   }
 
-  .split                  { grid-template-columns: 1fr; direction: ltr !important; }
+  .split                  { grid-template-columns: 1fr; }
+  .split--reversed .split__img     { order: 1; }
+  .split--reversed .split__content { order: 2; }
   .split__img             { min-height: 360px; }
   .split__content         { padding: 4rem 2rem; }
   .split__body            { max-width: 100%; }
