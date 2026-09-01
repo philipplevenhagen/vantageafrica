@@ -4,7 +4,7 @@
 
 export default function SplitSection({
   side, theme, eyebrow, headline, headlineEm,
-  body, bullets, img, imgAlt,
+  body, bullets, img, imgAlt, imgPosition,
 }) {
   const isReversed   = side === 'right'
   const contentClass = `split__content split__content--${theme}`
@@ -26,7 +26,7 @@ export default function SplitSection({
 
   const imagePanel = (
     <div className="split__img" key="img">
-      <img src={img} alt={imgAlt} loading="lazy" />
+      <img src={img} alt={imgAlt} loading="lazy" style={imgPosition ? { objectPosition: imgPosition } : undefined} />
     </div>
   )
 

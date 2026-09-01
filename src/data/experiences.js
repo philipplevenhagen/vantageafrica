@@ -50,6 +50,23 @@ export const EXPERIENCES = [
     img:    '/images/capetown.jpg',
     imgAlt: 'Aerial view of Cape Town with Table Mountain',
   },
+  {
+    id:         'aviation',
+    side:       'right',
+    theme:      'light',
+    eyebrow:    'In the air',
+    headline:   ['Private aviation,', 'door to door.'],
+    headlineEm: 'door to door.',
+    body:       'Distances in Southern Africa are real. We remove them. Charter flights between camps, bush strips most operators never use, and aircraft matched to the group and the route — so the journey is part of the holiday, not a cost of it.',
+    bullets: [
+      'Charter between lodges & camps',
+      'Bush strips & remote access',
+      'Helicopter transfers & scenic flights',
+    ],
+    img:    '/images/aviation.jpg',
+    imgAlt: 'Private charter aircraft on a bush airstrip',
+    imgPosition: 'center 62%',
+  },
 ]
 
 // ─── Three images in the full-bleed photo band ────────────────────────────────
@@ -58,5 +75,8 @@ export const EXPERIENCES = [
 export const PHOTO_BAND = [
   { src: '/images/band-2.jpg', alt: 'Outdoor dining in the bush' },
   { src: '/images/band-1.jpg', alt: 'Lion at dusk' },
-  { src: '/images/band-3.jpg', alt: 'Luxury safari lodge at sunset' },
+  { src: '/images/band-3.jpg', alt: 'Private villa terrace with pool in the winelands' },
+  { src: '/images/band-4.jpg', alt: 'Campfire under a double rainbow on the plains' },
+  { src: '/images/band-5.jpg', alt: 'Tented camp in the grasslands' },
+  { src: '/images/band-6.jpg', alt: 'Inside a luxury safari tent' },
 ]

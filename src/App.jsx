@@ -1,6 +1,6 @@
-// ─── Root component — sections listed in page order ───────────────────────────
-// To reorder, add, or remove sections: edit this file and the relevant data file.
+// ─── Root component — routing + section order ─────────────────────────────────
 import { useEffect } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import Nav          from './components/Nav'
 import Hero         from './components/Hero'
@@ -13,11 +13,14 @@ import Clients      from './components/Clients'
 import Enquire      from './components/Enquire'
 import Footer       from './components/Footer'
 
+import TermsPage    from './pages/TermsPage'
+import PrivacyPage  from './pages/PrivacyPage'
+import EuropePage   from './pages/EuropePage'
+
 import { EXPERIENCES, PHOTO_BAND } from './data/experiences'
 
-export default function App() {
+function HomePage() {
   // ─── Global scroll-reveal observer ─────────────────────────────────────────
-  // Runs once on mount, observes every .reveal element on the page.
   useEffect(() => {
     const targets  = document.querySelectorAll('.reveal')
     const observer = new IntersectionObserver(entries => {
@@ -56,5 +59,18 @@ export default function App() {
       <Enquire />
       <Footer />
     </>
+  )
+}
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/"        element={<HomePage />} />
+        <Route path="/europe"  element={<EuropePage />} />
+        <Route path="/terms"   element={<><TermsPage /><Footer /></>} />
+        <Route path="/privacy" element={<><PrivacyPage /><Footer /></>} />
+      </Routes>
+    </BrowserRouter>
   )
 }

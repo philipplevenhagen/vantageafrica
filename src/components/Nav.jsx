@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { META } from '../data/meta'
 
 export default function Nav() {
@@ -12,11 +13,12 @@ export default function Nav() {
 
   return (
     <nav className={`nav${scrolled ? ' scrolled' : ''}`}>
-      <a href="#" className="nav__logo">{META.name}</a>
+      <Link to="/" className="nav__logo">{META.name}</Link>
       <div className="nav__links">
-        <a href="#services"     className="nav__link">What we do</a>
-        <a href="#work-with-us" className="nav__link">Work with us</a>
-        <a href="#contact"      className="nav__cta">Get in touch</a>
+        <a href="/#services"     className="nav__link">What we do</a>
+        <Link to="/europe"       className="nav__link">Explore Europe</Link>
+        <a href="/#work-with-us" className="nav__link">Work with us</a>
+        <a href="/#contact"      className="nav__cta">Get in touch</a>
       </div>
     </nav>
   )
