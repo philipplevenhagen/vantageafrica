@@ -73,10 +73,10 @@ export const EXPERIENCES = [
 // Replace src values with your own photos in public/images/
 // The first item spans 2fr (wider), the other two are 1fr each.
 export const PHOTO_BAND = [
-  { src: '/images/band-2.jpg', alt: 'Outdoor dining in the bush' },
-  { src: '/images/band-1.jpg', alt: 'Lion at dusk' },
-  { src: '/images/band-3.jpg', alt: 'Private villa terrace with pool in the winelands' },
-  { src: '/images/band-4.jpg', alt: 'Campfire under a double rainbow on the plains' },
   { src: '/images/band-5.jpg', alt: 'Tented camp in the grasslands' },
+  { src: '/images/band-1.jpg', alt: 'Lion at dusk' },
+  { src: '/images/band-4.jpg', alt: 'Campfire under a double rainbow on the plains' },
+  { src: '/images/band-2.jpg', alt: 'Outdoor dining in the bush' },
   { src: '/images/band-6.jpg', alt: 'Inside a luxury safari tent' },
+  { src: '/images/band-3.jpg', alt: 'Private villa terrace with pool in the winelands' },
 ]
