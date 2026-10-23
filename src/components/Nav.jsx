@@ -16,7 +16,6 @@ export default function Nav() {
       <Link to="/" className="nav__logo">{META.name}</Link>
       <div className="nav__links">
         <a href="/#services"     className="nav__link">What we do</a>
-        <Link to="/europe"       className="nav__link">Explore Europe</Link>
         <a href="/#work-with-us" className="nav__link">Work with us</a>
         <a href="/#contact"      className="nav__cta">Get in touch</a>
       </div>

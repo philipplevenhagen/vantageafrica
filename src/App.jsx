@@ -15,7 +15,6 @@ import Footer       from './components/Footer'
 
 import TermsPage    from './pages/TermsPage'
 import PrivacyPage  from './pages/PrivacyPage'
-import EuropePage   from './pages/EuropePage'
 
 import { EXPERIENCES, PHOTO_BAND } from './data/experiences'
 
@@ -67,7 +66,6 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/"        element={<HomePage />} />
-        <Route path="/europe"  element={<EuropePage />} />
         <Route path="/terms"   element={<><TermsPage /><Footer /></>} />
         <Route path="/privacy" element={<><PrivacyPage /><Footer /></>} />
       </Routes>
