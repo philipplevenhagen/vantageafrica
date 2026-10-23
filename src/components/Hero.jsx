@@ -9,9 +9,9 @@ export default function Hero() {
       <div className="hero__content">
         <p className="hero__eyebrow">{META.tagline}</p>
         <h1 className="hero__headline">
-          We know<br />
-          <em>exactly</em><br />
-          where to go.
+          The Africa<br />
+          that is <em>never</em><br />
+          advertised.
         </h1>
         <p className="hero__sub">
           {META.name} designs bespoke luxury programmes across Southern Africa
