@@ -19,8 +19,8 @@ export const EXPERIENCES = [
       'Botswana, Zimbabwe & Namibia',
       'Private concessions & fly camps',
     ],
-    img:    '/images/safari.jpg',
-    imgAlt: 'Elephants at golden hour in the African bush',
+    img:    '/images/safari-elephant.jpg',
+    imgAlt: 'Guest watching an elephant from a game-drive vehicle',
   },
   {
     id:         'winelands',
@@ -31,8 +31,8 @@ export const EXPERIENCES = [
     headlineEm: 'Cape Winelands.',
     body:       'Franschhoek, Stellenbosch, the Swartland. We have the relationships — with the winemakers, the estate owners, the sommeliers — to take clients somewhere no booking platform will ever list.',
     bullets:    [],
-    img:    '/images/winelands.jpg',
-    imgAlt: 'Vineyard rows at golden hour in the Cape Winelands',
+    img:    '/images/winelands-vines.jpg',
+    imgAlt: 'Vine rows beneath the Boland mountains in the Cape Winelands',
   },
   {
     id:         'capetown',
@@ -74,7 +74,7 @@ export const EXPERIENCES = [
 // The first item spans 2fr (wider), the other two are 1fr each.
 export const PHOTO_BAND = [
   { src: '/images/band-5.jpg', alt: 'Tented camp in the grasslands' },
-  { src: '/images/band-1.jpg', alt: 'Lion at dusk' },
+  { src: '/images/lion-portrait.jpg', alt: 'Young lion in the grass' },
   { src: '/images/band-4.jpg', alt: 'Campfire under a double rainbow on the plains' },
   { src: '/images/band-2.jpg', alt: 'Outdoor dining in the bush' },
   { src: '/images/band-6.jpg', alt: 'Inside a luxury safari tent' },
