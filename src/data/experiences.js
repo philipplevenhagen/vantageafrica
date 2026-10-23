@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     eyebrow:    'The bush',
     headline:   ['Safari, chosen', 'with precision.'],
     headlineEm: 'precision.',
-    body:       'Not every reserve is the same. Not every lodge is right for every group. We know the difference between a good safari and an extraordinary one — and we put clients in exactly the right place, with the right guide, at the right time of year.',
+    body:       'Not every reserve is the same. Not every lodge is right for every group. We know the difference between a good safari and an extraordinary one — and we put clients in exactly the right place, with the right guide, at the right time of year. A sundowner drive timed to the light. Dinner in the bush under the stars. A morning behind the scenes at a wildlife rehabilitation centre, for those who want to see what conservation actually looks like.',
     bullets: [
       'Greater Kruger & Sabi Sand',
       'Botswana, Zimbabwe & Namibia',
@@ -29,7 +29,7 @@ export const EXPERIENCES = [
     eyebrow:    'The winelands',
     headline:   ['The finest of the', 'Cape Winelands.'],
     headlineEm: 'Cape Winelands.',
-    body:       'Franschhoek, Stellenbosch, the Swartland. We have the relationships — with the winemakers, the estate owners, the sommeliers — to take clients somewhere no booking platform will ever list.',
+    body:       'Franschhoek, Stellenbosch, the Swartland. We have the relationships — with the winemakers, the estate owners, the sommeliers — to take clients somewhere no booking platform will ever list. Flagship ranges tasted in the manor house, not the tasting room. A whole farm taken over for one long table, live music under the trees. A morning in a farm kitchen with the chef, and the keys to the valley’s best cellars.',
     bullets:    [],
     img:    '/images/winelands-vines.jpg',
     imgAlt: 'Vine rows beneath the Boland mountains in the Cape Winelands',
@@ -41,7 +41,7 @@ export const EXPERIENCES = [
     eyebrow:    'Cape Town & beyond',
     headline:   ['The city,', 'as a local', 'knows it.'],
     headlineEm: 'local',
-    body:       "The finest hotels. The chefs who don't take reservations. The drives, the views, the galleries, the coastline. And when Cape Town is done — Namibia, the Garden Route, the Drakensberg. We connect it all seamlessly.",
+    body:       "The finest hotels. The chefs who don't take reservations — and the twenty-seat rooms we book out entirely. The coastal roads at the right hour, the markets the city actually shops at, private whale expeditions with a marine scientist on board. And when Cape Town is done — Namibia, the Garden Route, the Drakensberg. We connect it all seamlessly.",
     bullets: [
       'Iconic hotels & private villas',
       'Private guides & vetted drivers',
@@ -73,10 +73,10 @@ export const EXPERIENCES = [
 // Replace src values with your own photos in public/images/
 // The first item spans 2fr (wider), the other two are 1fr each.
 export const PHOTO_BAND = [
-  { src: '/images/band-5.jpg', alt: 'Tented camp in the grasslands' },
+  { src: '/images/manor-lawn.jpg', alt: 'Cape Dutch manor house beneath the Franschhoek mountains' },
   { src: '/images/lion-portrait.jpg', alt: 'Young lion in the grass' },
-  { src: '/images/band-4.jpg', alt: 'Campfire under a double rainbow on the plains' },
-  { src: '/images/band-2.jpg', alt: 'Outdoor dining in the bush' },
-  { src: '/images/band-6.jpg', alt: 'Inside a luxury safari tent' },
-  { src: '/images/band-3.jpg', alt: 'Private villa terrace with pool in the winelands' },
+  { src: '/images/sundowner.jpg', alt: 'Sundowner stop in the reserve at dusk' },
+  { src: '/images/cliff-dinner.jpg', alt: 'Private dinner set above the Atlantic' },
+  { src: '/images/shamwari-pool.jpg', alt: 'Pool terrace at a private game reserve manor' },
+  { src: '/images/waterfront-night.jpg', alt: 'Cape Town hotel at night beneath Table Mountain' },
 ]

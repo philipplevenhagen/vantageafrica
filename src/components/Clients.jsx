@@ -7,7 +7,7 @@ const CLIENTS = [
   },
   {
     name: 'Corporate & Incentive',
-    desc: "Executive retreats and incentive travel where Africa's drama becomes the backdrop for extraordinary experiences.",
+    desc: "Executive retreats and incentive travel where Africa's drama becomes the backdrop — with every guest met at the aircraft and every detail held by one hand.",
   },
   {
     name: 'Travel Agencies',
@@ -15,7 +15,7 @@ const CLIENTS = [
   },
   {
     name: 'Lifestyle & Brand Partners',
-    desc: "Bespoke programme design for luxury brands, members' clubs, and lifestyle partnerships requiring something genuinely exceptional.",
+    desc: "Multi-day programmes for the world's great marques and luxury houses — ten couples, five cars, four mountain passes, one seamless journey. Designed, staffed, and delivered end to end.",
   },
 ]
 
