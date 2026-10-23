@@ -20,7 +20,7 @@ export const EXPERIENCES = [
       'Private concessions & fly camps',
     ],
     img:    '/images/safari-elephant.jpg',
-    imgAlt: 'Guest watching an elephant from a game-drive vehicle',
+    imgAlt: 'Elephant in golden grass on the Eastern Cape bushveld',
   },
   {
     id:         'winelands',
