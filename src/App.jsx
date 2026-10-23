@@ -13,8 +13,9 @@ import Clients      from './components/Clients'
 import Enquire      from './components/Enquire'
 import Footer       from './components/Footer'
 
-import TermsPage    from './pages/TermsPage'
-import PrivacyPage  from './pages/PrivacyPage'
+import TermsPage        from './pages/TermsPage'
+import PrivacyPage      from './pages/PrivacyPage'
+import PresentationPage from './pages/PresentationPage'
 
 import { EXPERIENCES, PHOTO_BAND } from './data/experiences'
 
@@ -68,6 +69,7 @@ export default function App() {
         <Route path="/"        element={<HomePage />} />
         <Route path="/terms"   element={<><TermsPage /><Footer /></>} />
         <Route path="/privacy" element={<><PrivacyPage /><Footer /></>} />
+        <Route path="/p/:slug" element={<PresentationPage />} />
       </Routes>
     </BrowserRouter>
   )
