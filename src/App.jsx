@@ -47,14 +47,20 @@ function HomePage() {
         <div className="divider" />
       </div>
 
-      {/* Split sections are driven entirely by src/data/experiences.js */}
-      {EXPERIENCES.map(exp => (
+      {/* Split sections are driven entirely by src/data/experiences.js.
+          The network quote breaks the run of splits after the winelands. */}
+      {EXPERIENCES.slice(0, 2).map(exp => (
+        <SplitSection key={exp.id} {...exp} />
+      ))}
+
+      <NetworkQuote />
+
+      {EXPERIENCES.slice(2).map(exp => (
         <SplitSection key={exp.id} {...exp} />
       ))}
 
       <Services />
       <PhotoBand items={PHOTO_BAND} />
-      <NetworkQuote />
       <Clients />
       <Enquire />
       <Footer />
