@@ -1,21 +1,22 @@
 // ─── Moments ──────────────────────────────────────────────────────────────────
 // Horizontally scrollable strip of photography from recent journeys.
 // Scroll-snap on touch and trackpad; edit the MOMENTS array to change images.
+// `alt` is for accessibility/SEO only — nothing renders beneath the images.
 const MOMENTS = [
-  { src: '/images/moments/toast.jpg',           caption: 'A toast above the Atlantic' },
-  { src: '/images/moments/cheetah.jpg',         caption: 'Cheetah in the long grass' },
-  { src: '/images/moments/laikipia-arches.jpg', caption: 'Last light, Laikipia' },
-  { src: '/images/moments/coast-road.jpg',      caption: 'The coast road, driven properly' },
-  { src: '/images/moments/elephants-river.jpg', caption: 'The river, mid-morning' },
-  { src: '/images/moments/tasting.jpg',         caption: 'Tasted in the house, not the tasting room' },
-  { src: '/images/moments/laikipia-pool.jpg',   caption: 'The plunge pool, Laikipia' },
-  { src: '/images/moments/long-table.jpg',      caption: 'One long table, Franschhoek' },
-  { src: '/images/moments/penguins.jpg',        caption: 'Boulders Beach' },
-  { src: '/images/moments/laikipia-tusker.jpg', caption: 'A Laikipia tusker' },
-  { src: '/images/moments/band.jpg',            caption: 'Lunch, with the band' },
-  { src: '/images/moments/bush-kitchen.jpg',    caption: 'The kitchen comes along' },
-  { src: '/images/moments/giraffe.jpg',         caption: 'Morning drive, Eastern Cape' },
-  { src: '/images/moments/cape-dusk.jpg',       caption: 'The Cape coast at dusk' },
+  { src: '/images/moments/toast.jpg',           alt: 'A toast above the Atlantic' },
+  { src: '/images/moments/cheetah.jpg',         alt: 'Cheetah in the long grass' },
+  { src: '/images/moments/laikipia-arches.jpg', alt: 'Stone arches at last light in Laikipia' },
+  { src: '/images/moments/coast-road.jpg',      alt: 'Sports car on the Cape coast road' },
+  { src: '/images/moments/elephants-river.jpg', alt: 'Elephants bathing in the river' },
+  { src: '/images/moments/tasting.jpg',         alt: 'Wine tasting in a manor house' },
+  { src: '/images/moments/laikipia-pool.jpg',   alt: 'Plunge pool overlooking the Laikipia plains' },
+  { src: '/images/moments/long-table.jpg',      alt: 'Long lunch table on a Franschhoek farm' },
+  { src: '/images/moments/penguins.jpg',        alt: 'Penguins at Boulders Beach' },
+  { src: '/images/moments/laikipia-tusker.jpg', alt: 'Elephant in Laikipia' },
+  { src: '/images/moments/band.jpg',            alt: 'Live band at a farm lunch' },
+  { src: '/images/moments/bush-kitchen.jpg',    alt: 'Chef cooking in the bush' },
+  { src: '/images/moments/giraffe.jpg',         alt: 'Giraffe seen from a game-drive vehicle' },
+  { src: '/images/moments/cape-dusk.jpg',       alt: 'The Cape coast at dusk' },
 ]
 
 export default function Moments() {
@@ -25,10 +26,9 @@ export default function Moments() {
         <p className="section-label reveal">From recent journeys</p>
       </div>
       <div className="moments__track">
-        {MOMENTS.map(({ src, caption }) => (
+        {MOMENTS.map(({ src, alt }) => (
           <figure key={src} className="moments__item">
-            <img src={src} alt={caption} loading="lazy" />
-            <figcaption>{caption}</figcaption>
+            <img src={src} alt={alt} loading="lazy" />
           </figure>
         ))}
       </div>
