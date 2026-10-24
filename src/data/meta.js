@@ -5,8 +5,12 @@ export const META = {
   legalName:  'Vantage Travel (Pty) Ltd',
   regNumber:  '2025/503492/07',
   vatNumber:  '4580323097',
-  tagline:    'Southern Africa Specialists',
+  tagline:    'Southern & East Africa Specialists',
   email:      'enquiries@vantagetravel.africa',
+  // WhatsApp number in international format without +, spaces, or dashes
+  // (e.g. '27821234567'). Leave empty to hide the WhatsApp button site-wide.
+  whatsapp:   '',
+  phoneDisplay: '',
   tradeEmail: 'enquiries@vantagetravel.africa',
   website:    'www.vantagetravel.africa',
   address:    '93 Bree Street, Cape Town 8000, South Africa',

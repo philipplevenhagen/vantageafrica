@@ -15,6 +15,16 @@ export default function Footer() {
           <a href={`mailto:${META.email}`} className="footer__contact">
             {META.email}
           </a>
+          {META.whatsapp && (
+            <a
+              href={`https://wa.me/${META.whatsapp}`}
+              className="footer__contact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {META.phoneDisplay || 'WhatsApp'}
+            </a>
+          )}
           <span className="footer__contact">{META.address}</span>
           <a href={`https://${META.website}`} className="footer__contact" target="_blank" rel="noopener noreferrer">
             {META.website}

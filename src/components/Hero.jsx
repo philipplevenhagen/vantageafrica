@@ -14,8 +14,8 @@ export default function Hero() {
           advertised.
         </h1>
         <p className="hero__sub">
-          Bespoke journeys across Southern Africa — built on years on the
-          ground, and relationships that take time to earn.
+          Bespoke journeys across Southern and East Africa — built on years
+          on the ground, and relationships that take time to earn.
         </p>
       </div>
       <div className="hero__scroll">

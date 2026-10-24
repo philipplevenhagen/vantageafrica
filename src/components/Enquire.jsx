@@ -14,7 +14,7 @@ const CARDS = [
   {
     tag:   'Agencies & trade partners',
     title: 'Work Together',
-    body:  'For advisors and agencies that need a reliable ground operator in Southern Africa.',
+    body:  'For advisors and agencies that need a reliable ground operator in Southern and East Africa.',
     cta:   'Get in touch',
     emailKey: 'tradeEmail',
   },
@@ -47,6 +47,18 @@ export default function Enquire() {
             </a>
           ))}
         </div>
+        {META.whatsapp && (
+          <p className="enquire__whatsapp reveal">
+            Or message us directly on{' '}
+            <a
+              href={`https://wa.me/${META.whatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              WhatsApp{META.phoneDisplay ? ` · ${META.phoneDisplay}` : ''}
+            </a>
+          </p>
+        )}
       </div>
     </section>
   )

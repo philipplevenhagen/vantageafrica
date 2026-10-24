@@ -12,7 +12,6 @@ const MOMENTS = [
   { src: '/images/moments/laikipia-pool.jpg',   alt: 'Plunge pool overlooking the Laikipia plains' },
   { src: '/images/moments/long-table.jpg',      alt: 'Long lunch table on a Franschhoek farm' },
   { src: '/images/moments/penguins.jpg',        alt: 'Penguins at Boulders Beach' },
-  { src: '/images/moments/laikipia-tusker.jpg', alt: 'Elephant in Laikipia' },
   { src: '/images/moments/band.jpg',            alt: 'Live band at a farm lunch' },
   { src: '/images/moments/bush-kitchen.jpg',    alt: 'Chef cooking in the bush' },
   { src: '/images/moments/giraffe.jpg',         alt: 'Giraffe seen from a game-drive vehicle' },

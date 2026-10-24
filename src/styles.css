@@ -1045,3 +1045,21 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
   .moments__track   { padding: 0 2rem; gap: 1rem; }
   .moments__item    { width: 72vw; }
 }
+
+/* ─── Enquire WhatsApp line ──────────────────────────────────────────────────── */
+.enquire__whatsapp {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  color: rgba(250, 247, 242, 0.6);
+}
+.enquire__whatsapp a {
+  color: var(--sand);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(201, 180, 138, 0.4);
+  padding-bottom: 1px;
+}
+.enquire__whatsapp a:hover { border-bottom-color: var(--sand); }

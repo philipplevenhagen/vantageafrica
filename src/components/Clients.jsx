@@ -11,7 +11,7 @@ const CLIENTS = [
   },
   {
     name: 'Travel Agencies',
-    desc: 'A ground partner for advisors and concierge teams placing clients in Southern Africa.',
+    desc: 'A ground partner for advisors and concierge teams placing clients in Southern and East Africa.',
   },
   {
     name: 'Lifestyle & Brand Partners',
