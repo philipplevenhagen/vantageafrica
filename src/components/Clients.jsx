@@ -7,7 +7,7 @@ const CLIENTS = [
   },
   {
     name: 'Corporate & Incentive',
-    desc: 'Retreats and incentive travel, with every guest met at the aircraft and one team holding the whole programme.',
+    desc: 'Retreats and incentive travel, with one team holding the whole programme.',
   },
   {
     name: 'Travel Agencies',
@@ -15,7 +15,7 @@ const CLIENTS = [
   },
   {
     name: 'Lifestyle & Brand Partners',
-    desc: 'Programmes for marques and luxury houses — ten couples, five cars, four mountain passes, delivered end to end.',
+    desc: 'Programmes for marques and luxury houses — designed, staffed, and delivered end to end.',
   },
 ]
 

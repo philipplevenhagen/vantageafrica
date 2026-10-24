@@ -4,22 +4,22 @@ export const SERVICES = [
   {
     icon:  'I.',
     title: 'Bespoke Programme Design',
-    body:  'Built from scratch around the group — their pace, their interests. A whale expedition with a scientist on board, a morning in a farm kitchen, a private track day. Nothing off the shelf.',
+    body:  'Built from scratch around the group — their pace, their interests. Nothing off the shelf.',
   },
   {
     icon:  'II.',
-    title: 'Safari & Conservation',
-    body:  'The right lodge in the right reserve at the right time. Private concessions, good rangers, dinner in the bush — and time at the conservation projects, for those who want it.',
+    title: 'Safari & Wildlife',
+    body:  'The right lodge in the right reserve at the right time, with guides we know and trust.',
   },
   {
     icon:  'III.',
     title: 'Wine & Cellar Access',
-    body:  'Tastings in the manor house with the people who made the wine. Whole farms for a single long table. Producers that don’t take bookings.',
+    body:  'Tastings with the people who made the wine, at estates that don’t take bookings.',
   },
   {
     icon:  'IV.',
     title: 'Driving Journeys',
-    body:  'Multi-day routes over the Cape’s mountain passes. A guide in the lead car, a sweep vehicle behind, and the summit table set before the convoy arrives.',
+    body:  'Multi-day routes over the Cape’s great mountain passes — planned, led, and supported by our own team.',
   },
   {
     icon:  'V.',
@@ -29,6 +29,6 @@ export const SERVICES = [
   {
     icon:  'VI.',
     title: 'Seamless Logistics',
-    body:  'Guests met at the aircraft, fast-tracked, luggage carried through to the lounge. Transfers, flights, timings — handled so that nobody has to think about them.',
+    body:  'VIP airport handling, private transfers, scheduled or charter flights — every movement timed so that nobody has to think about it.',
   },
 ]

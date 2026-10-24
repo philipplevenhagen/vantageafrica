@@ -29,7 +29,7 @@ export const EXPERIENCES = [
     eyebrow:    'The winelands',
     headline:   ['The finest of the', 'Cape Winelands.'],
     headlineEm: 'Cape Winelands.',
-    body:       'Franschhoek, Stellenbosch, the Swartland. We work with the winemakers and estate owners directly — a tasting in the manor house rather than the tasting room, one long table on the farm, music under the trees.',
+    body:       'Franschhoek, Stellenbosch, the Swartland. We work with the winemakers and estate owners directly — and open doors that no platform lists.',
     bullets:    [],
     img:    '/images/winelands-vines.jpg',
     imgAlt: 'Vine rows beneath the Boland mountains in the Cape Winelands',
@@ -41,7 +41,7 @@ export const EXPERIENCES = [
     eyebrow:    'Cape Town & beyond',
     headline:   ['The city,', 'as a local', 'knows it.'],
     headlineEm: 'local',
-    body:       "The hotels, the chefs, the coastal roads at the right hour — and the twenty-seat rooms we take over entirely. When Cape Town is done: Namibia, the Garden Route, the Drakensberg. We connect it all quietly.",
+    body:       "The hotels, the chefs, the coastal roads at the right hour. And when Cape Town is done: Namibia, the Garden Route, the Drakensberg. We connect it all quietly.",
     bullets: [
       'Iconic hotels & private villas',
       'Private guides & vetted drivers',
