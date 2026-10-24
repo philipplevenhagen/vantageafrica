@@ -10,8 +10,9 @@ import PhotoBand    from './components/PhotoBand'
 import Services     from './components/Services'
 import NetworkQuote from './components/NetworkQuote'
 import Clients      from './components/Clients'
-import Moments      from './components/Moments'
-import Enquire      from './components/Enquire'
+import Moments        from './components/Moments'
+import Enquire        from './components/Enquire'
+import WhatsAppButton from './components/WhatsAppButton'
 import Footer       from './components/Footer'
 
 import TermsPage        from './pages/TermsPage'
@@ -79,6 +80,7 @@ export default function App() {
         <Route path="/privacy" element={<><PrivacyPage /><Footer /></>} />
         <Route path="/p/:slug" element={<PresentationPage />} />
       </Routes>
+      <WhatsAppButton />
     </BrowserRouter>
   )
 }

@@ -47,18 +47,6 @@ export default function Enquire() {
             </a>
           ))}
         </div>
-        {META.whatsapp && (
-          <p className="enquire__whatsapp reveal">
-            Or message us directly on{' '}
-            <a
-              href={`https://wa.me/${META.whatsapp}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              WhatsApp{META.phoneDisplay ? ` · ${META.phoneDisplay}` : ''}
-            </a>
-          </p>
-        )}
       </div>
     </section>
   )
