@@ -6,7 +6,6 @@ const MOMENTS = [
   { src: '/images/moments/toast.jpg',           alt: 'A toast above the Atlantic' },
   { src: '/images/moments/cheetah.jpg',         alt: 'Cheetah in the long grass' },
   { src: '/images/moments/laikipia-arches.jpg', alt: 'Stone arches at last light in Laikipia' },
-  { src: '/images/moments/coast-road.jpg',      alt: 'Sports car on the Cape coast road' },
   { src: '/images/moments/elephants-river.jpg', alt: 'Elephants bathing in the river' },
   { src: '/images/moments/tasting.jpg',         alt: 'Wine tasting in a manor house' },
   { src: '/images/moments/laikipia-pool.jpg',   alt: 'Plunge pool overlooking the Laikipia plains' },
