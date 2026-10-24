@@ -5,14 +5,17 @@
 const MOMENTS = [
   { src: '/images/moments/toast.jpg',           alt: 'A toast above the Atlantic' },
   { src: '/images/moments/cheetah.jpg',         alt: 'Cheetah in the long grass' },
+  { src: '/images/moments/coast-road.jpg',      alt: 'Sports car on the coast road above Hout Bay' },
   { src: '/images/moments/laikipia-arches.jpg', alt: 'Stone arches at last light in Laikipia' },
   { src: '/images/moments/estate-drive.jpg',    alt: 'Sports cars on a tree-lined estate drive' },
   { src: '/images/moments/elephants-river.jpg', alt: 'Elephants bathing in the river' },
   { src: '/images/moments/tasting.jpg',         alt: 'Wine tasting in a manor house' },
+  { src: '/images/moments/aston-beach.jpg',     alt: 'Sports car parked at the beach' },
   { src: '/images/moments/laikipia-pool.jpg',   alt: 'Plunge pool overlooking the Laikipia plains' },
   { src: '/images/moments/long-table.jpg',      alt: 'Long lunch table on a Franschhoek farm' },
   { src: '/images/moments/penguins.jpg',        alt: 'Penguins at Boulders Beach' },
   { src: '/images/moments/band.jpg',            alt: 'Live band at a farm lunch' },
+  { src: '/images/moments/aston-menu.jpg',      alt: 'Dinner menu with winged crest on marble' },
   { src: '/images/moments/bush-kitchen.jpg',    alt: 'Chef cooking in the bush' },
   { src: '/images/moments/giraffe.jpg',         alt: 'Giraffe seen from a game-drive vehicle' },
 ]
