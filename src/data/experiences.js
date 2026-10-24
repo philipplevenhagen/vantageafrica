@@ -75,7 +75,7 @@ export const EXPERIENCES = [
 export const PHOTO_BAND = [
   { src: '/images/manor-lawn.jpg', alt: 'Cape Dutch manor house beneath the Franschhoek mountains' },
   { src: '/images/lion-portrait.jpg', alt: 'Young lion in the grass' },
-  { src: '/images/sundowner.jpg', alt: 'Sundowner stop in the reserve at dusk' },
+  { src: '/images/boma-night.jpg', alt: 'Boma dinner under the stars' },
   { src: '/images/cliff-dinner.jpg', alt: 'Private dinner set above the Atlantic' },
   { src: '/images/shamwari-pool.jpg', alt: 'Pool terrace at a private game reserve manor' },
   { src: '/images/waterfront-night.jpg', alt: 'Cape Town hotel at night beneath Table Mountain' },
