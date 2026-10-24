@@ -9,8 +9,8 @@ export const META = {
   email:      'enquiries@vantagetravel.africa',
   // WhatsApp number in international format without +, spaces, or dashes
   // (e.g. '27821234567'). Leave empty to hide the WhatsApp button site-wide.
-  whatsapp:   '',
-  phoneDisplay: '',
+  whatsapp:   '27794593298',
+  phoneDisplay: '+27 79 459 3298',
   tradeEmail: 'enquiries@vantagetravel.africa',
   website:    'www.vantagetravel.africa',
   address:    '93 Bree Street, Cape Town 8000, South Africa',
