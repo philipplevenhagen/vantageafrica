@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     eyebrow:    'The bush',
     headline:   ['Safari, chosen', 'with precision.'],
     headlineEm: 'precision.',
-    body:       'Not every reserve is the same, and not every lodge suits every group. We put clients in the right place, with the right guide, at the right time of year — down to dinner in the bush and a morning behind the scenes at a rehabilitation centre, for those who want it.',
+    body:       'Not every reserve is the same, and not every lodge suits every group. We put clients in the right place, with the right guide, at the right time of year.',
     bullets: [
       'Greater Kruger & Sabi Sand',
       'Botswana, Zimbabwe & Namibia',
