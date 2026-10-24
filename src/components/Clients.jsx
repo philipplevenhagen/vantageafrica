@@ -3,19 +3,19 @@
 const CLIENTS = [
   {
     name: 'Private Groups',
-    desc: 'Families, friends, and milestone celebrations requiring meticulous coordination and moments that become stories.',
+    desc: 'Families, friends, and milestone trips — planned closely, run quietly.',
   },
   {
     name: 'Corporate & Incentive',
-    desc: "Executive retreats and incentive travel where Africa's drama becomes the backdrop — with every guest met at the aircraft and every detail held by one hand.",
+    desc: 'Retreats and incentive travel, with every guest met at the aircraft and one team holding the whole programme.',
   },
   {
     name: 'Travel Agencies',
-    desc: 'A trusted ground partner for luxury advisors and concierge teams placing discerning clients in Southern Africa.',
+    desc: 'A ground partner for advisors and concierge teams placing clients in Southern Africa.',
   },
   {
     name: 'Lifestyle & Brand Partners',
-    desc: "Multi-day programmes for the world's great marques and luxury houses — ten couples, five cars, four mountain passes, one seamless journey. Designed, staffed, and delivered end to end.",
+    desc: 'Programmes for marques and luxury houses — ten couples, five cars, four mountain passes, delivered end to end.',
   },
 ]
 
@@ -28,13 +28,11 @@ export default function Clients() {
             Who we work with
           </p>
           <h2 className="clients__headline reveal reveal-d1">
-            Built for those<br />who demand <em>the finest.</em>
+            Built around the group,<br />never <em>the template.</em>
           </h2>
         </div>
         <p className="clients__sub reveal reveal-d2">
-          We work with private travellers, corporate groups, luxury travel
-          agencies, and lifestyle partners. Every programme is designed around
-          the client — never the other way around.
+          Private travellers, corporate groups, agencies, and brand partners.
         </p>
       </div>
       <div className="clients__grid">

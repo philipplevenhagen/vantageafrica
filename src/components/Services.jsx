@@ -17,8 +17,7 @@ export default function Services() {
         </div>
         <p className="services__sub reveal reveal-d2">
           From the first brief to the final departure, we coordinate every
-          component — drawing on a network of relationships that takes years to
-          build and cannot be replicated.
+          component ourselves.
         </p>
       </div>
 

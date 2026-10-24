@@ -7,14 +7,14 @@ const CARDS = [
   {
     tag:   'Private travel & groups',
     title: 'Plan a Journey',
-    body:  'Tell us who you are, how many, and what kind of experience you are looking for. We will take it from there.',
+    body:  'Who, how many, roughly when — a rough idea is enough. We will take it from there.',
     cta:   'Start planning',
     emailKey: 'email',
   },
   {
     tag:   'Agencies & trade partners',
     title: 'Work Together',
-    body:  'For travel advisors and luxury agencies looking for a knowledgeable, reliable Southern Africa ground operator.',
+    body:  'For advisors and agencies that need a reliable ground operator in Southern Africa.',
     cta:   'Get in touch',
     emailKey: 'tradeEmail',
   },
@@ -29,9 +29,8 @@ export default function Enquire() {
             Tell us what<br />you have in <em>mind.</em>
           </h2>
           <p className="enquire__sub reveal reveal-d1">
-            Every programme starts with a conversation. Whether you are
-            planning a group, placing a client, or simply exploring what is
-            possible — we are the right people to ask.
+            Every programme starts with a conversation — a group, a client,
+            or an idea that isn't fully formed yet.
           </p>
         </div>
         <div className="enquire__cards">

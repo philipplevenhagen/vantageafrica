@@ -997,3 +997,51 @@ img { display: block; width: 100%; height: 100%; object-fit: cover; }
 @media (max-width: 960px) {
   .presentation__gate-form { flex-direction: column; }
 }
+
+/* ─── Moments — horizontal photo strip ───────────────────────────────────────── */
+.moments {
+  background: var(--warm-white);
+  padding: 7rem 0 8rem;
+  overflow: hidden;
+}
+.moments__header { padding: 0 4rem 3rem; }
+.moments__track {
+  display: flex;
+  gap: 1.2rem;
+  overflow-x: auto;
+  padding: 0 4rem;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  cursor: grab;
+}
+.moments__track::-webkit-scrollbar { display: none; }
+.moments__item {
+  flex: 0 0 auto;
+  width: clamp(240px, 26vw, 400px);
+  margin: 0;
+  scroll-snap-align: start;
+}
+.moments__item img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
+.moments__item:hover img { transform: scale(1.03); }
+.moments__item figcaption {
+  margin-top: 0.9rem;
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(44, 41, 37, 0.55);
+}
+@media (max-width: 960px) {
+  .moments          { padding: 4.5rem 0 5rem; }
+  .moments__header  { padding: 0 2rem 2rem; }
+  .moments__track   { padding: 0 2rem; gap: 1rem; }
+  .moments__item    { width: 72vw; }
+}

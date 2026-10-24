@@ -13,7 +13,7 @@ export const EXPERIENCES = [
     eyebrow:    'The bush',
     headline:   ['Safari, chosen', 'with precision.'],
     headlineEm: 'precision.',
-    body:       'Not every reserve is the same. Not every lodge is right for every group. We know the difference between a good safari and an extraordinary one — and we put clients in exactly the right place, with the right guide, at the right time of year. A sundowner drive timed to the light. Dinner in the bush under the stars. A morning behind the scenes at a wildlife rehabilitation centre, for those who want to see what conservation actually looks like.',
+    body:       'Not every reserve is the same, and not every lodge suits every group. We put clients in the right place, with the right guide, at the right time of year — down to dinner in the bush and a morning behind the scenes at a rehabilitation centre, for those who want it.',
     bullets: [
       'Greater Kruger & Sabi Sand',
       'Botswana, Zimbabwe & Namibia',
@@ -29,7 +29,7 @@ export const EXPERIENCES = [
     eyebrow:    'The winelands',
     headline:   ['The finest of the', 'Cape Winelands.'],
     headlineEm: 'Cape Winelands.',
-    body:       'Franschhoek, Stellenbosch, the Swartland. We have the relationships — with the winemakers, the estate owners, the sommeliers — to take clients somewhere no booking platform will ever list. Flagship ranges tasted in the manor house, not the tasting room. A whole farm taken over for one long table, live music under the trees. A morning in a farm kitchen with the chef, and the keys to the valley’s best cellars.',
+    body:       'Franschhoek, Stellenbosch, the Swartland. We work with the winemakers and estate owners directly — a tasting in the manor house rather than the tasting room, one long table on the farm, music under the trees.',
     bullets:    [],
     img:    '/images/winelands-vines.jpg',
     imgAlt: 'Vine rows beneath the Boland mountains in the Cape Winelands',
@@ -41,7 +41,7 @@ export const EXPERIENCES = [
     eyebrow:    'Cape Town & beyond',
     headline:   ['The city,', 'as a local', 'knows it.'],
     headlineEm: 'local',
-    body:       "The finest hotels. The chefs who don't take reservations — and the twenty-seat rooms we book out entirely. The coastal roads at the right hour, the markets the city actually shops at, private whale expeditions with a marine scientist on board. And when Cape Town is done — Namibia, the Garden Route, the Drakensberg. We connect it all seamlessly.",
+    body:       "The hotels, the chefs, the coastal roads at the right hour — and the twenty-seat rooms we take over entirely. When Cape Town is done: Namibia, the Garden Route, the Drakensberg. We connect it all quietly.",
     bullets: [
       'Iconic hotels & private villas',
       'Private guides & vetted drivers',
@@ -57,7 +57,7 @@ export const EXPERIENCES = [
     eyebrow:    'In the air',
     headline:   ['Private aviation,', 'door to door.'],
     headlineEm: 'door to door.',
-    body:       'Distances in Southern Africa are real. We remove them. Charter flights between camps, bush strips most operators never use, and aircraft matched to the group and the route — so the journey is part of the holiday, not a cost of it.',
+    body:       'Distances in Southern Africa are real. We remove them — charter between camps, bush strips most operators never use, aircraft matched to the group and the route.',
     bullets: [
       'Charter between lodges & camps',
       'Bush strips & remote access',

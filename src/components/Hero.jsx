@@ -14,9 +14,8 @@ export default function Hero() {
           advertised.
         </h1>
         <p className="hero__sub">
-          {META.name} designs bespoke luxury programmes across Southern Africa
-          — built on deep regional knowledge, exceptional access, and
-          relationships that take years to earn.
+          Bespoke journeys across Southern Africa — built on years on the
+          ground, and relationships that take time to earn.
         </p>
       </div>
       <div className="hero__scroll">

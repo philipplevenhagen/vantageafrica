@@ -10,6 +10,7 @@ import PhotoBand    from './components/PhotoBand'
 import Services     from './components/Services'
 import NetworkQuote from './components/NetworkQuote'
 import Clients      from './components/Clients'
+import Moments      from './components/Moments'
 import Enquire      from './components/Enquire'
 import Footer       from './components/Footer'
 
@@ -62,6 +63,7 @@ function HomePage() {
       <Services />
       <PhotoBand items={PHOTO_BAND} />
       <Clients />
+      <Moments />
       <Enquire />
       <Footer />
     </>
