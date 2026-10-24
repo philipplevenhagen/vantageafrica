@@ -16,7 +16,6 @@ const MOMENTS = [
   { src: '/images/moments/band.jpg',            alt: 'Live band at a farm lunch' },
   { src: '/images/moments/bush-kitchen.jpg',    alt: 'Chef cooking in the bush' },
   { src: '/images/moments/giraffe.jpg',         alt: 'Giraffe seen from a game-drive vehicle' },
-  { src: '/images/moments/cape-dusk.jpg',       alt: 'The Cape coast at dusk' },
 ]
 
 export default function Moments() {

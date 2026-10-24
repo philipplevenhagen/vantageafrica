@@ -48,7 +48,7 @@ export const EXPERIENCES = [
       'Transfers — commercial or charter',
     ],
     img:    '/images/capetown.jpg',
-    imgAlt: 'Aerial view of Cape Town with Table Mountain',
+    imgAlt: 'Waves breaking on the Cape coast at sunset',
   },
   {
     id:         'aviation',
