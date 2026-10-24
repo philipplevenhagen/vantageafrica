@@ -4,6 +4,7 @@
 const MOMENTS = [
   { src: '/images/moments/toast.jpg',      caption: 'A toast above the Atlantic' },
   { src: '/images/moments/long-table.jpg', caption: 'One long table, Franschhoek' },
+  { src: '/images/moments/coast-road.jpg', caption: 'The coast road, driven properly' },
   { src: '/images/moments/giraffe.jpg',    caption: 'Morning drive, Eastern Cape' },
   { src: '/images/moments/tasting.jpg',    caption: 'Tasted in the house, not the tasting room' },
   { src: '/images/moments/penguins.jpg',   caption: 'Boulders Beach' },
