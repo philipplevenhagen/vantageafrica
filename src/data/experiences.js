@@ -41,7 +41,7 @@ export const EXPERIENCES = [
     eyebrow:    'Cape Town & beyond',
     headline:   ['The city,', 'as a local', 'knows it.'],
     headlineEm: 'local',
-    body:       "The hotels, the chefs, the coastal roads at the right hour. And when Cape Town is done: Namibia, the Garden Route, the Drakensberg. We connect it all quietly.",
+    body:       "The hotels, the chefs, the coastal roads at the right hour — and the country beyond the city, from the Garden Route to the Drakensberg. We connect it all quietly.",
     bullets: [
       'Iconic hotels & private villas',
       'Private guides & vetted drivers',
