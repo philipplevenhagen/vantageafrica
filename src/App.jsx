@@ -10,6 +10,7 @@ import PhotoBand    from './components/PhotoBand'
 import Services     from './components/Services'
 import NetworkQuote from './components/NetworkQuote'
 import Clients      from './components/Clients'
+import Signature      from './components/Signature'
 import Moments        from './components/Moments'
 import Enquire        from './components/Enquire'
 import WhatsAppButton from './components/WhatsAppButton'
@@ -57,7 +58,13 @@ function HomePage() {
 
       <NetworkQuote />
 
-      {EXPERIENCES.slice(2).map(exp => (
+      {EXPERIENCES.slice(2, 4).map(exp => (
+        <SplitSection key={exp.id} {...exp} />
+      ))}
+
+      <Signature />
+
+      {EXPERIENCES.slice(4).map(exp => (
         <SplitSection key={exp.id} {...exp} />
       ))}
 
