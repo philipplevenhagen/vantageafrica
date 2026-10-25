@@ -7,7 +7,7 @@ const CARDS = [
   {
     tag:   'Private travel & groups',
     title: 'Plan a Journey',
-    body:  'Who, how many, roughly when — a rough idea is enough. We will take it from there.',
+    body:  'Who, how many, when — a loose idea is enough. We will take it from there.',
     cta:   'Start planning',
     emailKey: 'email',
   },
@@ -29,7 +29,7 @@ export default function Enquire() {
             Tell us what<br />you have in <em>mind.</em>
           </h2>
           <p className="enquire__sub reveal reveal-d1">
-            Every programme starts with a conversation — a group, a client,
+            Every journey starts with a conversation — a group, a client,
             or an idea that isn't fully formed yet.
           </p>
         </div>

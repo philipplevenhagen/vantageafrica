@@ -41,7 +41,7 @@ export const EXPERIENCES = [
     eyebrow:    'Cape Town & beyond',
     headline:   ['The city,', 'as a local', 'knows it.'],
     headlineEm: 'local',
-    body:       "The hotels, the chefs, the coastal roads at the right hour — and the country beyond the city, from the Garden Route to the Drakensberg. We connect it all quietly.",
+    body:       "The hotels, the chefs, the coastal roads at the right hour — and the country beyond the city, from the Garden Route to the Drakensberg. We connect it all.",
     bullets: [
       'Iconic hotels & private villas',
       'Private guides & vetted drivers',
@@ -57,7 +57,7 @@ export const EXPERIENCES = [
     eyebrow:    'Behind the wheel',
     headline:   ['The Cape,', 'driven properly.'],
     headlineEm: 'driven properly.',
-    body:       'Mountain passes, coastal roads, and some of the finest driving country anywhere. We design multi-day driving journeys around Cape Town and beyond — the cars, the routes, and everything in between.',
+    body:       'Mountain passes, coastal roads, and some of the finest driving country anywhere. Multi-day journeys around Cape Town and beyond — the cars, the routes, and everything in between.',
     bullets: [
       'The Cape’s great mountain passes',
       'Supercars & classics, arranged',
@@ -74,7 +74,7 @@ export const EXPERIENCES = [
     eyebrow:    'In the air',
     headline:   ['Private aviation,', 'door to door.'],
     headlineEm: 'door to door.',
-    body:       'Distances in Southern Africa are real. We remove them — charter between camps, bush strips most operators never use, aircraft matched to the group and the route.',
+    body:       'Distances in Africa are real. We remove them — charter between camps, bush strips most operators never use, aircraft matched to the route.',
     bullets: [
       'Charter between lodges & camps',
       'Bush strips & remote access',

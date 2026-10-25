@@ -4,12 +4,12 @@ export const SERVICES = [
   {
     icon:  'I.',
     title: 'Bespoke Programme Design',
-    body:  'Built from scratch around the group — their pace, their interests. Nothing off the shelf.',
+    body:  'Built from scratch around you — pace, interests, appetite. Nothing off the shelf.',
   },
   {
     icon:  'II.',
     title: 'Safari & Wildlife',
-    body:  'The right lodge in the right reserve at the right time, with guides we know and trust.',
+    body:  'The reserves we trust, the lodges we know, and the guides we would travel with ourselves.',
   },
   {
     icon:  'III.',
@@ -24,7 +24,7 @@ export const SERVICES = [
   {
     icon:  'V.',
     title: 'Hotels & Properties',
-    body:  'Wine-estate manor houses, Cape Town’s icons, remote camps. The right property, the right room — the whole house when the group calls for it.',
+    body:  'Wine-estate manor houses, Cape Town’s icons, remote camps — and the whole house when the occasion calls for it.',
   },
   {
     icon:  'VI.',

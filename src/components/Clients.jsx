@@ -7,7 +7,7 @@ const CLIENTS = [
   },
   {
     name: 'Corporate & Incentive',
-    desc: 'Retreats and incentive travel, with one team holding the whole programme.',
+    desc: 'Retreats and incentive travel, with one team holding every detail.',
   },
   {
     name: 'Travel Agencies',
