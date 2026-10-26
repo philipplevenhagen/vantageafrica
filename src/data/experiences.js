@@ -48,8 +48,7 @@ export const EXPERIENCES = [
       'Transfers — commercial or charter',
     ],
     img:    '/images/capetown.jpg',
-    imgAlt: 'Sports car on the coast road above Hout Bay',
-    imgPosition: 'center bottom',
+    imgAlt: 'Candlelit dining room set for dinner',
   },
   {
     id:         'driving',

@@ -5,6 +5,7 @@
 const MOMENTS = [
   { src: '/images/moments/toast.jpg',           alt: 'A toast above the Atlantic' },
   { src: '/images/moments/cheetah.jpg',         alt: 'Cheetah in the long grass' },
+  { src: '/images/moments/coast-road.jpg',      alt: 'Sports car on the coast road above Hout Bay' },
   { src: '/images/moments/laikipia-arches.jpg', alt: 'Stone arches at last light in Laikipia' },
   { src: '/images/moments/estate-drive.jpg',    alt: 'Sports cars on a tree-lined estate drive' },
   { src: '/images/moments/elephants-river.jpg', alt: 'Elephants bathing in the river' },
