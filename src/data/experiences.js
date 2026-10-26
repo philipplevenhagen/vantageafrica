@@ -48,7 +48,7 @@ export const EXPERIENCES = [
       'Transfers — commercial or charter',
     ],
     img:    '/images/capetown.jpg',
-    imgAlt: 'Candlelit dining room set for dinner',
+    imgAlt: 'Camps Bay and the Twelve Apostles from the air',
   },
   {
     id:         'driving',
